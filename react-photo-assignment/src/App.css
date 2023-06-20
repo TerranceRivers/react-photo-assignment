@@ -1,0 +1,42 @@
+.App {
+    display: grid;
+    grid-template-columns: 3fr 1fr
+    }
+
+
+.imagecard {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat();
+
+}
+
+.cardContainer img {
+  width: 200px;
+  height: 200px;
+ 
+}
+
+.likesContainer {
+  flex: 3;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dislikesContainer {
+  flex: 3;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.likesContainer img,
+.dislikesContainer img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
